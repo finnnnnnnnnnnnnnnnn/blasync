@@ -1,5 +1,5 @@
 # Blasync
-git commit -m "first commit"s
+A tiny little library for Blender addons that makes it easy to run code with locking the UI.    
 There are 3 important pieces:
  - AsyncModalOperatorMixin  
     Mixin that makes an operator run async non-blocking
