@@ -1,4 +1,4 @@
-from .async_loop import AsyncModalOperatorMixin,  ensure_async_loop, setup_asyncio_executor
+from .async_loop import AsyncModalOperatorMixin, AsyncLoopModalOperator, ensure_async_loop, setup_asyncio_executor
 
 import asyncio
 
