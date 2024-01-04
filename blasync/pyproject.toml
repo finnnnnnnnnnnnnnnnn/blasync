@@ -15,6 +15,7 @@ Issues = "https://github.com/some16/blasync/issues"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+#Does this do anything?
 [tool.hatch.build.targets.wheel.sources]
 "src/blasync_some16" = "blasync"
 
