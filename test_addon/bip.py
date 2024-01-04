@@ -32,7 +32,7 @@ import pprint
 #Make this good
 #Also seperate this into its own thing
 #This is all taken from https://github.com/NumesSanguis/Blender-ZMQ-add-on
-
+#Maybe add updating packages
 class Pip:
     @classmethod
     def install(self, name: str, params=''):  # execute() is called when running the operator.
