@@ -25,8 +25,8 @@ bl_info = {
 import bpy
 
 #Install Blasync
-from .bip import Pip
-Pip.install("blasync", "-i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/")
+from .blip import install_package
+install_package("blasync", "-i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/")
 
 from .operators import *
 from .panel import *
